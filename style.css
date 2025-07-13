@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #E60026;
+  width: 100%;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 100px;
+}
+header img{
+  width: 4em;
+}
+.logo {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.8em;
+}
+.title_colorful{
+  color: #151313;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.lang {
+  border: 2px solid #151313;
+  border-radius: 20px;
+}
+.navigation a:hover{
+  color: #151313;
+}
+section {
+  background: linear-gradient(90deg, rgb(10, 5, 5) 0%, rgb(10, 5, 5) 7.692%, rgb(14, 9, 10) 7.692%, rgb(14, 9, 10) 15.385%, rgb(18, 13, 14) 15.385%, rgb(18, 13, 14) 23.077%, rgb(22, 18, 19) 23.077%, rgb(22, 18, 19) 30.769%, rgb(26, 22, 23) 30.769%, rgb(26, 22, 23) 38.462%, rgb(30, 26, 27) 38.462%, rgb(30, 26, 27) 46.154%, rgb(34, 30, 31) 46.154%, rgb(34, 30, 31) 53.846%, rgb(38, 34, 35) 53.846%, rgb(38, 34, 35) 61.538%, rgb(42, 38, 39) 61.538%, rgb(42, 38, 39) 69.231%, rgb(45, 41, 42) 69.231%, rgb(45, 41, 42) 76.923%, rgb(48, 44, 45) 76.923%, rgb(48, 44, 45) 84.615%, rgb(51, 46, 47) 84.615%, rgb(51, 46, 47) 92.308%, rgb(53, 48, 49) 92.308%, rgb(53, 48, 49) 100%);
+  padding: 100px 200px;
+}
+.main .social-icons a {
+  font-size: 2em;
+  padding: 23px;
+}
+.main h2 {
+  color: white;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.editable{
+  display: inline-block;
+  margin-top: 10px;
+  color: #E60026;
+  font-size: 3em;
+  font-weight: 600;
+}
+.main h3 {
+  color: white;
+  font-size: 2em;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 30px;
+}
+
+.main-btn {background-image: linear-gradient(to right, #e52d27 0%, #b31217  51%, #e52d27  100%)}
+.main-btn {
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  display: inline-block;
+  padding: 0.937em 2.1875em;
+  letter-spacing: 1px;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+         
+.main-btn:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: white;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+.images img{
+  padding: 20px 30px;
+  width: 12em;
+  transition: 0.7s ease;
+}
+.images{
+  padding-top: 60px;
+}
+.images img:hover{
+  transform: scale(1.1);
+}
+.title {
+  display: flex;
+  justify-content: center;
+  color: #E60026;
+  font-size: 2.2em;
+  font-weight: 800;
+  margin-bottom: 30px;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.services .title {
+  color: #E60026;
+}
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  width: 21.25em;
+  box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+  padding: 25px;
+  margin: 15px;
+  transition: 0.7s ease;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transform: rotate(90);
+}
+
+.icon {
+  color: #E60026;
+  font-size: 8em;
+  text-align: center;
+}
+
+.info {
+  text-align: center;
+}
+
+.info h3 {
+  color: #cd0022;
+  font-size: 1.2em;
+  font-weight: 700;
+  margin: 10px;
+}
+.info p {
+  color: white;
+}
+
+.lieux .content {
+  margin-top: 30px;
+}
+
+.lieux-card {
+  background-color: whitesmoke;
+  border: 1px solid white;
+  min-height: 14em;
+  width: 23em;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+}
+
+.lieux-card:hover {
+  transform: scale(1.1);
+}
+.lieux-card:hover .lieux-image{
+  opacity: 0.9;
+}
+.lieux-image img{
+  width: 100%
+}
+.lieux-info {
+  padding: 1em;
+  font-size: 1em;
+  text-align: center;
+}
+.colorful {
+  color: #E60026;
+}
+.contact .title {
+  color: #E60026;
+}
+.contact .icon {
+  font-size: 4.5em;
+}
+
+.contact .info h3 {
+  color: #E60026;
+}
+.contact .info p {
+  color: white;
+}
+.contact .info p {
+  font-size: 1.5em;
+}
+.social-icons a{
+  color: white;
+}
+.social-icons{
+  padding: 0 20px;
+}
+.footer {
+  background-color: #E60026;
+  color: white;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: center;
+}
+.footer-title {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+.footer .social-icons a {
+  color: whitesmoke;
+  font-size: 1.3em;
+  padding: 0 12px 0 0;
+}
+@media (max-width:1023px){
+  header{
+    padding: 12px 20px;
+  }
+  .navigation a{
+    padding-left: 10px;
+  }
+  .title{
+    font-size: 1.8em;
+  }
+  section{
+    padding: 80px 20px;
+  }
+  .main h2{
+    font-size: 1em;
+  }
+  .main h3{
+    font-size: 1.6em;
+  }
+  .content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .images img{
+    padding: 10px 15px;
+    width: 10em;
+  }
+}
+@media (max-width:741px){
+  body{
+    font-size: 12px;
+  }
+  .main h2{
+    font-size: 0.8em;
+  }
+  .main h3{
+    font-size: 1.4em;
+  }
+  .logo{
+    font-size: 1.2em;
+  }
+  .main .social-icons{
+    padding: 0 20px;
+  }
+}
+@media (max-width:492px){
+  body{
+    font-size: 8px;
+  }
+  .main .social-icons{
+    padding: 0 3px;
+  }
+  .images img{
+    padding: 5px 7px;
+    width: 10em;
+  }
+}
+@media (max-width:389px){
+  .footer{
+    padding: 6px 10px;
+  }
+}
+@media (max-width:355px){
+  .footer{
+    padding: 3px 5px;
+    font-size: 7px;
+  }
+  header{
+    padding: 3px 5px;
+    font-size: 7px;
+  }
+}
